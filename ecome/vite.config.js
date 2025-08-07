@@ -7,5 +7,5 @@ export default defineConfig({
   server: {
     historyApiFallback: true, 
   },
-  base:process.env.VITE_BASE_PATH || "/E-commerce-Website"
+base: process.env.VITE_BASE_PATH || "/E-commerce-Website"
 })
