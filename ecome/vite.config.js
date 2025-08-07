@@ -3,7 +3,9 @@ import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   plugins: [react()],
+  
   server: {
-    historyApiFallback: true, // optional if you're using React Router
+    historyApiFallback: true, 
   },
+  base:process.env.VITE_BASE_PATH || "/E-commerce-Website"
 })
